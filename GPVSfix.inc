@@ -1,5 +1,5 @@
 /*
-    GetPlayerVehicleSeat fix - Developed using Pawn.RakNet by Cycle/dG0xF.
+    GetPlayerVehicleSeat fix - Developed using Pawn.RakNet by fezz.
 */
 
 #if defined _GPVS_included
