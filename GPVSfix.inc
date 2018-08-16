@@ -29,7 +29,7 @@ public OnIncomingPacket(playerid, packetid, BitStream:bs)
 {
     if(packetid == 0xC8) 
     	GPVS_PlayerSeat{playerid} = 0;
-    if(packetid == 0xD3)
+    else if(packetid == 0xD3)
     {
         BS_SetReadOffset(bs, 26);
         BS_ReadValue(
